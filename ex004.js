@@ -8,4 +8,4 @@ var n3 = parseFloat (read.question ("Digite a Terceira nota: "))
 console.log (n3)
 var media  = parseFloat (n1+n2+n3)/3;
 console.log (media)
-var media = read.question("A media da suas notas e: "+media)
+var media = parseFloat (read.question(`A media da suas notas e: ${media}`))
